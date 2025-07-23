@@ -1,9 +1,9 @@
-import Image from "next/image";
+
 export default function Home() {
   return (
     <>
     <div className=" h-screen bg-gradient-to-b from-green-900 to-green-300 relative">
-      <div className="absolute bottom-0  z-50 flex justify-center w-full"> <center><img className="flex items-center justify-center ml-170   w-120 h-135 " src="/photo.png"></img></center>
+      <div className="absolute bottom-0  z-50 flex justify-center w-full"> <center><img className="flex items-center justify-center ml-170 w-120 h-135" src="/photo.png" alt="pic error" /></center>
              </div>
       <div className="flex justify justify-between text-amber-50 p-7 ">
         <div className="gap-5 m"><h3 className="font-serif mask-radial-from-neutral-950 text-[18px] text-white pl-25">ABI PHILIP</h3></div>
